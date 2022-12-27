@@ -8,15 +8,15 @@
 </head>
 <body>
     <p>TEST</p>
-    <table>
-        <thead>
+    <table class="table">
+        <tfoot>
             <tr>
-                <th>학생이름</th>
-                <th>국어</th>
-                <th>영어</th>
-                <th>수학</th>
+                <th>합계</th>
+                <td id="first_g"></td>
+                <td id="second_g"></td>
+                <td id="third_g"></td>
             </tr>
-        </thead>
+        </tfoot>
         <tbody>
             <tr>
                 <th>김성철</th>
@@ -31,28 +31,9 @@
                 <th>95</th>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
-                <th>합계</th>
-                <th>185</th>
-                <th>185</th>
-                <th>185</th>
-            </tr>
-        </tfoot>
+        
     </table>
 
-    <button id="btn">성적확인</button>
-
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-
-    <button type="button" class="btn btn-link">Link</button>
-
+    <button id="btn" class="btn btn-into" onclick="grade()">성적확인</button>
 </body>
 </html>
