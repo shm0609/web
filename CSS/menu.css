@@ -1,0 +1,10 @@
+.menu{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
